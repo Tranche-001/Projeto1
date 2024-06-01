@@ -1,0 +1,64 @@
+
+body{
+    font-family: "Open Sans", sans-serif;
+
+    text-align: center;
+    margin: 0px; /*remove a margem automatica de 8px da web*/
+}
+
+#hero{
+    width: 592px;
+    margin: 0 auto 72px; /* Laterais recebem automaticamente as margens */
+}
+
+#hero img{
+    margin-bottom: 72px;
+}
+
+h1{
+    font-family: "Inter", sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: normal;
+}
+
+h1 span{
+    font-weight: bold;
+}
+
+
+span, a{
+    color: #FF9900;
+}
+
+p, #footer{
+    color: #7D7987;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+#footer a + a{/* pego o a que anterior a ele tem um a, le da direita para esquerda*/
+    margin-left: 28px;
+}
+
+.line{ /* Para classe se usa .*/
+    width: 568px;
+    height: 0px;
+    margin: 0 auto 8px;
+    border: 1px solid #ECEFF2;
+    /*Podemos clicar na cor para escolher ela. 
+    Além disso, podemos clicar no nome para escolher o formato. 
+    Isto é, RGB, Hexa HSL e +*/
+}
+
+/*Para ver o espaço entre objetos no figma segure Alt
+Os dados do objeto geralmente estão no próprio objeto no figma.
+Obs: as linhas de código agora são uma função paga do Figma
+*/
+
+#balls{
+    position: fixed;/*Deixa o elemento fixo na tela. Crie um novo contexto sobreposto a página original.
+    Com position, podemos controlar o lugar dele na tela*/
+    bottom: 0px;
+    right: 0px;
+}
